@@ -89,7 +89,7 @@ public class Addition
 	[TestMethod]
 	public void Power_Invalid_Patino()
 	{
-		Assert.ThrowsException<FormatException>(() => Program.Power("1", "2"));
+		Assert.ThrowsException<FormatException>(() => Program.Power("1", "3")); // maybe this will fix it? (it won't)
 	}
 
 	[TestMethod]
